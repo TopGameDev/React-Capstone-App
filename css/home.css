@@ -1,0 +1,174 @@
+/********************** HERO Section ***********************/
+.contain {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-contain {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    
+}
+
+.box1 {
+    width: 50%;
+    background-color: rgb(34, 41, 82);
+    padding-left: 50px;
+}
+
+.box1-spacing {
+    margin-top: 25px;
+}
+
+.box1-spacing h1 {
+    color: #55f7c6;
+}
+
+.box1-spacing h4 {
+    color: white;
+}
+
+.box2 {
+    width: 50%;
+    background-color: rgb(34, 41, 82);
+}
+
+.box2-spacing {
+    margin-top: 115px;
+    padding-left: 125px
+}
+
+.saragodsword {
+    width: 300px;
+    margin-top: -100px;
+    margin-left: 80px;
+    transform: scaleZ(1);
+}
+
+/********************** Feature 1 Section ***********************/
+
+.feature-one-image {
+    width: 50%;
+}
+
+.feature-one-image-spacing {
+    margin-top: 115px;
+    padding-left: 125px;
+}
+
+.feature-one-text {
+    width: 50%;
+    background-color: rgb(34, 41, 82);
+    padding-left: 50px;
+}
+
+.feature-one-text-spacing {
+    margin-top: 85px;
+    padding-right: 60px;
+}
+
+.feature-one-text-spacing p {
+    color: white;
+}
+
+.podium-image {
+    width: 300px;
+    margin-top: -110px;
+    margin-left: 80px;
+}
+
+/********************** Feature 2 Section ***********************/
+
+.feature-two-image {
+    width: 50%;
+}
+
+.feature-two-image-spacing {
+    margin-top: 115px;
+    padding-left: 125px;
+}
+
+.feature-two-text {
+    width: 50%;
+    background-color: rgb(34, 41, 82);
+    padding-left: 50px;
+}
+
+.feature-two-text-spacing {
+    margin-top: 85px;
+    padding-right: 60px;
+}
+
+.feature-two-text-spacing p {
+    color: white;
+}
+
+.chatbubbles{
+    width: 300px;
+    margin-top: -120px;
+    margin-left: 80px;
+    transform: scaleZ(1);
+}
+
+/********************** Feature 3 Section ***********************/
+
+.feature-three-image {
+    width: 50%;
+}
+
+.feature-three-image-spacing {
+    margin-top: 115px;
+    padding-left: 125px;
+}
+
+.feature-three-text {
+    width: 50%;
+    background-color: rgb(34, 41, 82);
+    padding-left: 50px;
+}
+
+.feature-three-text-spacing {
+    margin-top: 85px;
+    padding-right: 60px;
+}
+
+.feature-three-text-spacing p {
+    color: white;
+}
+
+.market {
+    width: 300px;
+    margin-top: -115px;
+    margin-left: 80px;
+}
+/********************** Contact Us Section ***********************/
+
+.form-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.form-box-contain {
+    width: 80%;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 41, 82);
+}
+
+.contact-us-body {
+    background-color: white;
+    width: 400px;
+    padding: 0 30px;
+    border-radius: 25%;
+}
+
+.contact-us-spacing {
+    margin-top: 25px;
+    height: 10px;
+}

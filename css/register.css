@@ -1,0 +1,27 @@
+.register-card-contain {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    padding: 76.5px;
+}
+
+.register-card {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+}
+
+.register-text {
+    padding-bottom: 30px;
+}
+
+.btn-register {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-register-color {
+    background-color: #333b4b !important;
+}

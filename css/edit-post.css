@@ -1,0 +1,35 @@
+.edit-post-contain {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    padding: 76.5px;
+}
+
+.edit-post-card {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+}
+
+.edit-post-text {
+    padding-bottom: 30px;
+}
+
+.edit-post-form {
+    width: 400px;
+}
+
+.btn-contain {
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-submit {
+    background-color: #333b4b
+}
+
+.btn-delete {
+    background-color: #9a907c
+}

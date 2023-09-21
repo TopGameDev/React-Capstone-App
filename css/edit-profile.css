@@ -1,0 +1,30 @@
+.edit-user-content {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    padding: 76.5px;
+}
+
+.edit-user-card {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+}
+
+.edit-user-text {
+    padding-bottom: 30px;
+}
+
+.btn-edit-user {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-edit-user-color {
+    background-color: #333b4b !important;
+}
+
+.edit-user-form {
+    width: 400px;
+}

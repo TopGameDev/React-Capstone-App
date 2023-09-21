@@ -1,0 +1,68 @@
+.content-hub {
+    display: grid;
+    grid-template-columns: 16rem auto 30rem;
+    gap: 2rem;
+    width: 100%;
+    height: 911px;
+    background: #333b4b;
+}
+
+.form-body {
+    display: flex;
+    justify-content: center;
+    background-color: #232936;
+}
+
+.post-box {
+    margin-top: 100px;
+    padding: 0 50px;
+    height: 175px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #9a907c;
+}
+
+.post-form {
+    width: 600px;
+    padding: 0 30px;
+}
+
+.btn-post-spacing {
+    margin-top: 10px;
+    margin-left: 135px;
+    width: 250px;
+}
+
+.btn-post {
+    background-color: #333b4b !important;
+}
+
+.form-body {
+    overflow: auto;
+}
+/********************************* FluteNav **************************************/
+.nav-bar-hub {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pill-hub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 70%;
+    margin-top: 50px;
+    border-radius: 25%;
+    background: #9a907c;
+    gap: .5rem;
+    box-shadow: 25px 25px 75px rgb(0, 0, 0, 0.25),
+    10px 10px 70px rgb(0, 0, 0, 0.25),
+    inset 5px 5px 10px rgb(0, 0, 0, 0.25),
+    inset 5px 5px 20px rgb(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgb(0, 0, 0, 0.75);
+}
