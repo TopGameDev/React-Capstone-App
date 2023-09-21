@@ -1,27 +1,64 @@
-# React + TypeScript + Vite
+# Capstone RS-Player Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For my Capstone Project I decided to create a Player Tracker for one of my favorite games, Runescape. I've been playing since a friend of mine introduced me to it in elementary school. 
 
-Currently, two official plugins are available:
+I used a 3 stack approach to my web application:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React - Frontend
+- Flask - Backend
+- Postgres - Database
 
-## Expanding the ESLint configuration
+I built this project because Ive always wanted to make a website that could help players keep track of their progress as there are so many different elements in the game that its hard to keep track of them all.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+I learned a lot from this assignment. Mainly in how the database works with the front end and how to connect the two. Soon I will be adding a lot of other features that will challenge and enhance my ability to connect the frontend with the backend of my application. I also had the chance to get to know the React framework to a greater extent. I also got the opportunity to work more with Typescript and Promises, using Promises to pull data from my flask backend and from external API's. 
 
-- Configure the top-level `parserOptions` property like this:
+As of right now my application only has a few features:
+
+- Track Player Stats & Boss Kill Counts 
+- Post to a HUB for all to see
+   - Ability to Edit Post
+   - Ability to Delete Post
+- Edit Profile
+
+In the near future I will be adding these features:
+
+- Chat
+- Spawn Alerts
+- Market Data on Items
+- Ability to Team up with other users
+- Shop
+
+## How To Run The Program
+
+You will need to have both the flask backend and this web application running at the same time to explore:
+
+- Flask Backend Startup:
 
 ```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+   Start up a virtual environment
+      pip freeze > requirements.txt
+
+   To run program
+      flask run
+
+   To close program
+      Control + C
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React Application Startup:
+
+```js
+
+   To run program
+      npm dev run
+
+   To close program
+      Control + C
+```
+
+Once you have flask and my application running:
+
+- Click the sign up to register for a new account.
+- Once registered head to the log in link and sign in with your credentials
+- Once signed in click the dashboard link to see the player tracker and post. There will be a side nav for navigating the dashboard.
+
