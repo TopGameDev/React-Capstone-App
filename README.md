@@ -35,8 +35,20 @@ You will need to have both the flask backend and this web application running at
 - Flask Backend Startup:
 
 ```js
+   Clone Repository:
+      1. cd to folder you want to clone in the terminal
+      2. ~ git clone <git hub link>
+      3. cd into cloned folder
+      4. ~ Code . | To open folder in vs-code
+
    Start up a virtual environment
-      pip freeze > requirements.txt
+      python3 -m venv venv for MacOs
+      source venv/bin/activate
+
+      python -m venv for Windows
+      venv\Scripts\activate
+
+      pip install -r requirements.txt
 
    To run program
       flask run
@@ -48,7 +60,16 @@ You will need to have both the flask backend and this web application running at
 - React Application Startup:
 
 ```js
+   Clone Repository:
+      1. cd to folder you want to clone in the terminal
+      2. ~ git clone <git hub link>
+      3. cd into cloned folder
+      4. ~ Code . | To open folder in vs-code
 
+   Add Packages:
+      1. ~ npm i react-router-dom
+      2. ~ npm i axios
+      
    To run program
       npm dev run
 
@@ -58,7 +79,7 @@ You will need to have both the flask backend and this web application running at
 
 Once you have flask and my application running:
 
-- Click the sign up to register for a new account.
+- Click the sign up link to register for a new account.
 - Once registered head to the log in link and sign in with your credentials
 - Once signed in click the dashboard link to see the player tracker and post. There will be a side nav for navigating the dashboard.
 
