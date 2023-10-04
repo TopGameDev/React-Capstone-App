@@ -14,7 +14,8 @@ I learned a lot from this assignment. Mainly in how the database works with the 
 
 As of right now my application only has a few features:
 
-- Track Player Stats & Boss Kill Counts 
+- Track Player Stats & Boss Kill Counts
+   - Please go to https://wiseoldman.net and add your username so that your stats will show up when you search. The program will not work if you have not registered your username on the site.
 - Post to a HUB for all to see
    - Ability to Edit Post
    - Ability to Delete Post
@@ -69,7 +70,7 @@ You will need to have both the flask backend and this web application running at
    Add Packages:
       1. ~ npm i react-router-dom
       2. ~ npm i axios
-      
+
    To run program
       npm dev run
 
