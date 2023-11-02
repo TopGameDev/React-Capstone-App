@@ -4,7 +4,7 @@ import PlayerType from '../types/player';
 import PostType from '../types/post';
 
 
-const base: string = 'http://127.0.0.1:5000/api';
+const base: string = 'https://capstone-flask-backend.onrender.com/api';
 const wiseoldmanbase: string = 'https://api.wiseoldman.net/v2/'
 const postEndpoint: string = '/posts';
 const userEndpoint: string = '/users';
