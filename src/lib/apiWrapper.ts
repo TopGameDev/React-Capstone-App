@@ -1,6 +1,5 @@
 import axios from 'axios'
 import UserType from '../types/auth';
-import PlayerType from '../types/player';
 import PostType from '../types/post';
 
 

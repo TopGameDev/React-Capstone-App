@@ -30,7 +30,7 @@ export default function EditProfile({ flashMessage, user, isLoggedIn }: Props) {
         getUser(localStorage.getItem('token') as string)
             .then(response => {
                 if (response.data){
-                    setEditProfileInfo(response.data)
+                    setCurrentUser(response.data)
                 }
             })
         .catch(err => console.error(err))

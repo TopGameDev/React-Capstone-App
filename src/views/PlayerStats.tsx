@@ -21,7 +21,7 @@ export default function PlayerStats({ loggedInUser, isLoggedIn }: Props) {
     setPlayerName(event.target.value);
   };
 
-
+  const temp = error
   useEffect(() => {
     async function fetchData(){
         const response = await getPlayerStats(playerName);
@@ -54,6 +54,7 @@ export default function PlayerStats({ loggedInUser, isLoggedIn }: Props) {
         setError(null);
       } else {
         setPlayerStats([]);
+        temp
       }
     } catch (err) {
       setPlayerStats([]);
